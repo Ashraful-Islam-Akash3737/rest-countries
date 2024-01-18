@@ -1,0 +1,11 @@
+.country-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:15px;
+}
+.visited{
+    background-color: rgb(245, 199, 163);
+}
+.not-visited{
+    background-color: aquamarine;
+}
